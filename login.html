@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  </head>
+  <body>
+    <header class="container-fluid" style="background-color: #7C7877;">
+      <nav>
+        <ul class=" list-inline">
+          <li><a href="login.html">login</a></li>
+          <li><a href="join.html">join</a></li>
+          <li><a href="#">cat(0)</a></li>
+          <li><a href="#">order</a></li>
+          <li><a href="inquiry.html">Q&A</a></li>
+        </ul>
+      </nav>
+      <a href="index.html"><h2 class="text-center py-4 pb-1 text-brown">HANABI MALL</h2></a>
+    </header>
+    
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
+          <form class="form-group">
+            <label >아이디</label>
+            <input type="id" id="inputId" class="form-control" placeholder="아이디" required>
+            <div class="check-inputId" id="check-inputId"></div>
+          </form>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4 ">
+          <form class="form-group">
+            <label >비밀번호</label>
+            <input type="password" id="inputPw" class="form-control btn-xs" placeholder="Password" required>
+            <div class="check-inputPw" id="check-inputPw"></div>
+          </form>
+        </div>
+      </div>
+      <div class="checkbox col-xs-offset-1 col-md-4 col-md-offset-4">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+        <div class="row-no-gutters">
+          <button id="login" class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4 btn btn-primary" style="height: 35px;" type="button" onclick=fnLogin();>로그인</button>
+        </div>
+      </div>
+        <br>
+        <hr>
+        <div class="text-center ">
+          <a class="" href="join.html"><h4>회원가입</h4></a>
+        </div>
+        <div class="text-center">
+          <a class="" href="#l">비밀번호 찾기</a>
+        </div>
+
+      <!-- js -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/app.js"></script>
+  </body>
+</html>
